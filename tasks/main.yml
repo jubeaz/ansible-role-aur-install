@@ -7,8 +7,6 @@
     timeout=6
   register: __api_info
 
-- debug: var=__api_info
-
 - name: AUR | assert proper answer
   assert:
     that:
